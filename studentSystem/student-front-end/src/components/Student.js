@@ -26,7 +26,7 @@ export default function Student() {
       .then((result) => {
         setStubents(result);
       });
-  }, []);
+  }, [students]);
 
   return (
     <Container
